@@ -9,4 +9,4 @@ For this competition I tried training using a Resnet model, a regular CNN and a 
 ## Thoughts
 The models I trained have significant room for improvement. Most notably, the model is also very sensitive to things like glasses or more unusual face shapes. This suggests that it struggles with generalization and needs either better data or better training techniques to improve further. The data quality could definitely be improved. Adding transformations to the test images could be used to make significantly more training data. Also there is a significant amount of missing data in the training set. I used a simple average to replace that missing data, but more sophisticated techniques would probably work better.  
 
-![plot](./data/images/examples.png)
+![plot](./examples.png)
